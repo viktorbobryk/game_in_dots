@@ -1,0 +1,17 @@
+.LeaderBoard{
+    width: 50%;
+    border: 2px solid #ccc;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.LeaderBoard h1{
+    font-family: "Roboto", sans-serif;
+    color: #888888;
+    margin: 0;
+}
+.LeaderBoard header{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    margin-bottom: 20px;
+}

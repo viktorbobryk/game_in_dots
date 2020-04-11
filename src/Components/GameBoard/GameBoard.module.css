@@ -1,0 +1,6 @@
+.gameBoard{
+    width: 50%;
+    border: 2px solid #ccc;
+    border-left: none;
+    padding: 70px 10px;
+}

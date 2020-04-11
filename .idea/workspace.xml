@@ -1,9 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82cb5768-89cd-4d72-b9de-f3ccf9f89f1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameArea/GameArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameArea/GameArea.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameCell/GameCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameCell/GameCell.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Loader/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Loader/Loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Select/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UI/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/WinnerItem/WinnerItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/WinnerItem/WinnerItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Winners/Winners.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Winners/Wnners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios/axios-task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aAzMS1wjVwlRpReqHcGthVxLCy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-2020-01-17" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2020\game_in_dots\src\Components" />
+      <recent name="D:\2020\game_in_dots\src\Containers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82cb5768-89cd-4d72-b9de-f3ccf9f89f1f" name="Default Changelist" comment="" />
+      <created>1586193137181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586193137181</updated>
+      <workItem from="1586193139373" duration="7324000" />
+      <workItem from="1586252354100" duration="43799000" />
+      <workItem from="1586456284343" duration="14889000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586194179176">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586194179176" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1586617483411">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586617483411" />
+    <state x="221" y="61" key="SettingsEditor" timestamp="1586198718776">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586198718776" />
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586456284013">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586456284013" />
+    <state x="366" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586257189086">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="366" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586257189086" />
+    <state x="1676" y="90" width="736" height="909" key="find.popup" timestamp="1586290453624">
+      <screen x="1440" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1676" y="90" width="736" height="909" key="find.popup/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586290453624" />
+    <state x="383" y="180" key="search.everywhere.popup" timestamp="1586546954198">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586546954198" />
   </component>
 </project>

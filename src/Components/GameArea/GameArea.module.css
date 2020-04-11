@@ -1,0 +1,10 @@
+.gameArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.playground{
+    display: table;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
