@@ -1,10 +1,11 @@
 import React from 'react';
+import cx from 'classnames'
 import styles from './GameCell.module.css'
 
-const gameCell = (props) => {
+const gameCell = ({color, id}) => {
   return (
-    <td className={styles.gameCell} id={props.id}>
-    </td>
+    <div className={cx(styles.gameCell, styles[color])} id={id}>
+    </div>
   );
 };
 

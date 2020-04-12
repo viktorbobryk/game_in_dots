@@ -8,3 +8,23 @@
     border-collapse: collapse;
     margin-top: 20px;
 }
+.playground div:last-child div{
+    border: 1px solid #ccc;
+}
+.default {
+    background-color: #fff;
+}
+h1{
+    color: #888888;
+}
+span:first-child{
+    margin-right: 10px;
+}
+span:nth-child(2){
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0 5px;
+}
+span:last-child{
+    margin-left: 10px;
+}

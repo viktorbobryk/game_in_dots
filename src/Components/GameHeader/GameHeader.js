@@ -24,7 +24,7 @@ const gameHeader = (props) => {
             <Button
                 type="play"
                 onClick={props.play}
-                disabled={!props.disabled}
+                disabled={props.disabled}
             >Play</Button>
         </form>
 
