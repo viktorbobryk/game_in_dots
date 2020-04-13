@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="82cb5768-89cd-4d72-b9de-f3ccf9f89f1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameArea/GameArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameArea/GameArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameArea/GameArea.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameArea/GameArea.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameCell/GameCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameCell/GameCell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameCell/GameCell.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameCell/GameCell.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Select/Select.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-2020-01-17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,7 +97,8 @@
       <workItem from="1586193139373" duration="7324000" />
       <workItem from="1586252354100" duration="43799000" />
       <workItem from="1586456284343" duration="16528000" />
-      <workItem from="1586622647922" duration="47727000" />
+      <workItem from="1586622647922" duration="57947000" />
+      <workItem from="1586751084110" duration="6409000" />
     </task>
     <servers />
   </component>
@@ -119,10 +118,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860/1440.0.1680.1050@0.0.1440.860" timestamp="1586198718776" />
-    <state x="1532" y="92" width="1496" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586674941750">
+    <state x="1532" y="92" width="1496" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586718192092">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state x="1532" y="92" width="1496" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.860/1440.0.1680.1050@1440.0.1680.1050" timestamp="1586674941750" />
+    <state x="1532" y="92" width="1496" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.860/1440.0.1680.1050@1440.0.1680.1050" timestamp="1586718192092" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586456284013">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

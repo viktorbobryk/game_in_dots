@@ -4,11 +4,20 @@ import LeaderBoard from "./Components/LeaderBoard/LeaderBoard";
 import GameBoard from "./Components/GameBoard/GameBoard";
 
 class App extends Component {
+    state = {
+        toUpdate: false
+    };
+
   render() {
+      const toUpdateWinnersList = () => {
+          this.setState({
+              toUpdate: !this.state.toUpdate
+          })
+      };
     return (
         <div className={styles.app}>
-          <GameBoard/>
-          <LeaderBoard/>
+          <GameBoard toUpdate={toUpdateWinnersList}/>
+          <LeaderBoard  toUpdate={toUpdateWinnersList} updateWinners={this.state.toUpdate}/>
         </div>
     );
   }

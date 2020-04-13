@@ -9,23 +9,22 @@ const gameHeader = (props) => {
         event.preventDefault()
     };
 
+  let button = props.gameOver ? <Button onClick={props.playAgain} disabled={props.disabled}>Play Again</Button> : <Button onClick={props.play} disabled={props.disabled}>Play</Button>;
+
   return (
     <div className={styles.gameHeader}>
         <form onSubmit={submitHandler}>
             <Select
                 options={props.options}
                 onChange={props.onSelectChange}
-            >Pick game mode</Select>
+            >{props.children}</Select>
             <Input
                 onChange={props.onInputChange}
                 placeholder="Enter your name"
                 type="text"
+                value={props.name}
             />
-            <Button
-                type="play"
-                onClick={props.play}
-                disabled={props.disabled}
-            >Play</Button>
+            {button}
         </form>
 
     </div>

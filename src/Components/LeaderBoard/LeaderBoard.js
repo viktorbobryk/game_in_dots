@@ -27,6 +27,23 @@ class LeaderBoard extends Component {
     }
 
     render() {
+        const update = async () => {
+            try {
+                const response = await axios.get('/winners');
+
+                this.setState({
+                    winnersList: response.data,
+                    loading: false
+                });
+                this.props.updateWinners();
+            } catch (e) {
+                console.log(e)
+            }
+        };
+
+        if (this.props.updateWinners) {
+            update()
+        }
 
         const clickHandler = () => {
             this.setState({

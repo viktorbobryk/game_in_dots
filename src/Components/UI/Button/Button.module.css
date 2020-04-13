@@ -25,22 +25,7 @@
     cursor: not-allowed;
 }
 
-/*.pickGameMode {*/
-/*    background: #cfd8dc;*/
-/*    color: #888888;*/
-/*}*/
-/*.pickGameMode::after{*/
-/*    content: ">";*/
-/*    transform: rotate(90deg);*/
-/*}*/
-
-/*.play {*/
-/*    background: #7b8d93;*/
+/*.playAgain {*/
+/*    background: #d2583f;*/
 /*    color: #fff;*/
-/*    text-transform: uppercase;*/
 /*}*/
-
-.playAgain {
-    background: #d2583f;
-    color: #fff;
-}

@@ -9,8 +9,19 @@ const Select = props => {
             id={props.id}
             onChange={props.onChange}
         >
-            <option hidden>Pick game mode</option>
           { props.options.map((option, index) => {
+              if (index === 0){
+                  return (
+                      <option
+                          hidden
+                          defaultValue={option}
+                          value={option}
+                          key={option + index}
+                      >
+                          {option}
+                      </option>
+                  )
+              }
             return (
                 <option
                     value={option}

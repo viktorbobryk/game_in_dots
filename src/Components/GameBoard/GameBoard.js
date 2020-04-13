@@ -1,11 +1,11 @@
-import React, {PureComponent} from 'react';
+import React, {Component} from 'react';
 import styles from './GameBoard.module.css'
 import GameHeader from "../GameHeader/GameHeader";
 import GameArea from "../GameArea/GameArea"
 import Loader from '../UI/Loader/Loader'
 import axios from '../../axios/axios-task'
 
-class GameBoard extends PureComponent {
+class GameBoard extends Component {
     state = {
         computerScore: 0,
         userScore: 0,
@@ -22,7 +22,7 @@ class GameBoard extends PureComponent {
         untouchedCells: [],
         tableSize: null,
         interval: null,
-        disabled: false
+        gameOver: false
     };
 
     async componentDidMount() {
@@ -36,38 +36,62 @@ class GameBoard extends PureComponent {
         } catch (e) {
             console.log(e)
         }
-
     }
-
-
 
 
     render() {
 
+        const sendGameResult =  async (data) => {
+
+
+            try {
+                await axios.post('/winners', data);
+                this.props.toUpdate();
+
+            } catch (e) {
+                console.log(e)
+            }
+        };
+
+       const playAgain = () => {
+           this.setState({
+               computerScore: 0,
+               userScore: 0,
+               showResult: false,
+               activeMode: {
+                   field: null,
+                   delay: null,
+               },
+               userName: "",
+               activeCell: null,
+               tableCells: [],
+               untouchedCells: [],
+               tableSize: null,
+               interval: null,
+               gameOver: false
+           })
+       };
+
        const onclickHandler = (e) => {
-           e.stopPropagation();
-           console.log(e.target);
                const table = [...this.state.tableCells];
                let userScore = this.state.userScore;
                let computerScore = this.state.computerScore;
 
-
-               if (+e.target.id === this.state.tableCells[this.state.activeCell].id){
-                   table[this.state.activeCell].className = 'green';
-                   userScore ++;
-                   console.log(+e.target.id);
-                   console.log(this.state.tableCells[this.state.activeCell].id);
+               if(this.state.tableCells[this.state.activeCell]){
+                   if (+e.target.id === this.state.tableCells[this.state.activeCell].id){
+                       table[this.state.activeCell].className = 'green';
+                       userScore ++;
+                   }
+                   else{
+                       table[this.state.activeCell].className = 'red';
+                       computerScore ++;
+                   }
+                   this.setState({
+                       table: table,
+                       userScore: userScore,
+                       computerScore: computerScore
+                   })
                }
-               else{
-                   console.log('else');
-                   table[this.state.activeCell].className = 'red';
-                   computerScore ++;
-               }
-               this.setState({
-                   table: table,
-                   userScore: userScore,
-                   computerScore: computerScore
-               })
 
            };
 
@@ -126,12 +150,24 @@ class GameBoard extends PureComponent {
 
             table[activeCell].className = 'blue';
 
-            if (!untouchedCells.length || (this.state.computerScore > Math.round(this.state.tableSize / 2)) || this.state.userScore > Math.round(this.state.tableSize / 2)){
+            if (!untouchedCells.length || (this.state.computerScore > Math.round(this.state.tableSize / 2))  || this.state.userScore > Math.round(this.state.tableSize / 2)){
+
                 this.setState({
                     interval: clearInterval(this.state.interval),
                     showResult: true,
-                    disabled: true
+                    gameOver: true
                 });
+
+                let winner = this.state.computerScore > this.state.userScore ? 'computer' : this.state.userName;
+                let date = (new Date().toLocaleString());
+
+                let postData = {
+                    "winner": winner,
+                    "date": date
+                };
+                console.log(postData);
+                sendGameResult(postData);
+
             }
             this.setState({
                 untouchedCells: untouchedCells,
@@ -159,14 +195,18 @@ class GameBoard extends PureComponent {
         };
 
         let optionsList = Object.keys(this.state.settings);
+        optionsList.unshift('Pick game mode');
         return (
             <div className={styles.gameBoard}>
                 <GameHeader
                     play={startGame}
+                    playAgain={playAgain}
                     onSelectChange={selectHandler}
                     onInputChange={inputHandler}
                     options={optionsList}
-                    disabled={!(Boolean(this.state.userName && this.state.activeMode.field)) || this.state.disabled}
+                    disabled={!(Boolean(this.state.userName && this.state.activeMode.field))}
+                    gameOver={this.state.gameOver}
+                    name={this.state.userName}
                 />
                 {
                     this.state.loading ? <Loader /> : renderGameArea()
