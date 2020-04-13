@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameBoard/GameBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameHeader/GameHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeaderBoard/LeaderBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UI/Select/Select.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1586252354100" duration="43799000" />
       <workItem from="1586456284343" duration="16528000" />
       <workItem from="1586622647922" duration="57947000" />
-      <workItem from="1586751084110" duration="6409000" />
+      <workItem from="1586751084110" duration="6972000" />
     </task>
     <servers />
   </component>

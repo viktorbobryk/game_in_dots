@@ -69,7 +69,8 @@ class GameBoard extends Component {
                tableSize: null,
                interval: null,
                gameOver: false
-           })
+           });
+            this.props.toUpdate();
        };
 
        const onclickHandler = (e) => {

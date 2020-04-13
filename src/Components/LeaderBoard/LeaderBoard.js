@@ -35,7 +35,7 @@ class LeaderBoard extends Component {
                     winnersList: response.data,
                     loading: false
                 });
-                this.props.updateWinners();
+                // this.props.toUpdate();
             } catch (e) {
                 console.log(e)
             }

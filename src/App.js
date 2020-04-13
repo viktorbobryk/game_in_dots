@@ -17,7 +17,7 @@ class App extends Component {
     return (
         <div className={styles.app}>
           <GameBoard toUpdate={toUpdateWinnersList}/>
-          <LeaderBoard  toUpdate={toUpdateWinnersList} updateWinners={this.state.toUpdate}/>
+          <LeaderBoard  updateWinners={this.state.toUpdate}/>
         </div>
     );
   }
